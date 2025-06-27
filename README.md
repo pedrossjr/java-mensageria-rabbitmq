@@ -1,1 +1,1 @@
-# java-microservices-rabbitmq
+# java-mensageria-rabbitmq
