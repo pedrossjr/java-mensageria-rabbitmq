@@ -7,17 +7,18 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @Entity
-@Table(name = "produto")
+@Table(name = "tbl_produtos")
 public class Produto {
 
     @Id
     private UUID id = UUID.randomUUID();
     private String nome;
-    private Double valor;
+    private BigDecimal valor;
 
 }

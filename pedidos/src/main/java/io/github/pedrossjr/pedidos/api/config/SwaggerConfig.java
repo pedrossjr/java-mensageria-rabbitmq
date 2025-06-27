@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class SpringDocOpenApiConfig {
+public class SwaggerConfig {
 
     @Bean
     public OpenAPI openAPI() {
@@ -17,6 +17,7 @@ public class SpringDocOpenApiConfig {
                         new Info()
                                 .title("Rest API - Pedidos")
                                 .description("API para realização de pedidos")
+                                .version("v1.0")
                                 .license(new License().name("Apache 2.0").url("https://www.apache.org/licenses/LICENSE-2.0"))
                                 .contact(new Contact().name("Pedro Silva").email("pedro.souzasjr@yahoo.com"))
 

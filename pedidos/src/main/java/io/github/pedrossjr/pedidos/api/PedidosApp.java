@@ -1,13 +1,13 @@
-package io.github.pedrossjr.pedidos.notificacao;
+package io.github.pedrossjr.pedidos.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NotificacaoApplication {
+public class PedidosApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NotificacaoApplication.class, args);
+		SpringApplication.run(PedidosApp.class, args);
 	}
 
 }

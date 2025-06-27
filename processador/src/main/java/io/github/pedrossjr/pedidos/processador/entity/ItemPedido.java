@@ -14,16 +14,14 @@ import java.util.UUID;
 @NoArgsConstructor
 @Data
 @Entity
-@Table(name = "item_pedido")
+@Table(name = "tbl_itens_pedidos")
 public class ItemPedido {
 
     @Id
     private UUID id = UUID.randomUUID();
-
     @ManyToOne
     private Produto produto;
     private Integer quantidade;
-
     @ManyToOne
     private Pedido pedido;
 }
